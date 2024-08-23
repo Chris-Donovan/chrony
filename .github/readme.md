@@ -66,6 +66,9 @@ NTP_SERVERS="ntp1.aliyun.com,ntp2.aliyun.com,ntp3.aliyun.com,ntp4.aliyun.com"
 
 # local (offline)
 NTP_SERVERS="127.127.1.1"
+
+# Specify a pool (may be combined with NTP_SERVERS)
+NTP_POOLS="pool.ntp.org"
 ```
 
 ## Setting your timezone ⏲️
